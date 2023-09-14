@@ -51,7 +51,8 @@ input{
     border-radius: 5px;
     border: 1.5px solid var(--color-green2);
     margin-bottom: 15px;
-    padding-left: 10%;
+    margin-left: 5%;
+    padding-left:20%;
 }
 
 input:focus{
@@ -86,4 +87,15 @@ a{
 
 a:hover{
    letter-spacing: 1px;
+}
+
+.input-group{
+    width: 90%;
+}
+
+.input-icon{
+    margin: 0px;
+    padding: 2px;
+    width: 58px;
+    position: absolute;
 }
