@@ -43,7 +43,7 @@
             <label for="termos"class="text-label">Ao se cadastrar você concorda com a nossa <a class="link" href="#">Politíca de privacidade</a> e os <a class="link" href="#">Termos de uso</a></label>
         </div>
         <button type="submit" class="btn">Fazer Cadastro</button>
-        <a class="link-cadastro"  href="index.html">Já tenho uma conta</a>
+        <a class="link-cadastro"  href="index.php">Já tenho uma conta</a>
     </form>
 </body>
 </html>

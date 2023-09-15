@@ -9,9 +9,9 @@
     --color-dark: #484848 ;
     --color-green: #beee3b ;
     --color-green2: #0f928c ;
-    --color-green3: #006465 ;
+    --color-green3: #0ba1a3 ;
     --color-blue: #00c9d2;
-    --color-error: #e72a2a;
+    --color-error: #d73508;
 }
 
 body{
@@ -147,5 +147,5 @@ input[type='checkbox']{
     color: var(--color-error);
     text-align: center;
     margin-bottom: 10px;
-    font-weight: bold;
+    
 }
