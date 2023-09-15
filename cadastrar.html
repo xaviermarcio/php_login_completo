@@ -11,15 +11,28 @@
     <form action="#">
         <h2>Cadastrar</h2>
         <div class="input-group">
+            <img class="input-icon" src="images/usario.png" alt="">
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+        </div>
+        <div class="input-group">
             <img class="input-icon" src="images/login.png" alt="">
             <input type="email" name="email" id="email" placeholder="Digite seu email...">
         </div>
         <div class="input-group">
             <img class="input-icon" src="images/password.png" alt="">
-            <input type="password" name="password" id="password" placeholder="Digite sua senha...">
+            <input type="password" name="password" id="password" placeholder="Digite uma senha...">
         </div>
-        <button type="submit" class="btn">Fazer Login</button>
-        <a href="casdatrar.html">Ainda não tenho cadastro</a>
+        <div class="input-group">
+            <img class="input-icon" src="images/password.png" alt="">
+            <input type="password" name="password-confirmation" id="password-confirmation" placeholder="Repita a senha...">
+        </div>
+
+        <div class="input-group">
+            <input type="checkbox" name="termos" id="termos" >
+            <label for="termos"class="text-label">Ao se cadastrar você concorda com a nossa <a class="link" href="#">Politíca de privacidade</a> e os <a class="link" href="#">Termos de uso</a></label>
+        </div>
+        <button type="submit" class="btn">Fazer Cadastro</button>
+        <a href="index.html">Já tenho uma conta</a>
     </form>
 </body>
 </html>

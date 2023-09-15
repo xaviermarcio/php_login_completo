@@ -55,6 +55,19 @@ input{
     padding-left:20%;
 }
 
+label{
+    display: inline-block;
+    width: 85%;
+    font-size: 13px;
+    margin-top: 15px;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+
+.text-label{
+    color: var(--color-white);
+}
+
 input:focus{
     outline-color: var(--color-blue);
 } 
@@ -85,8 +98,9 @@ a{
     color: var(--color-white);
 }
 
-a:hover{
-   letter-spacing: 1px;
+.link{
+    color: var(--color-blue);
+    text-decoration: underline;
 }
 
 .input-group{
@@ -98,4 +112,11 @@ a:hover{
     padding: 2px;
     width: 58px;
     position: absolute;
+}
+
+input[type='checkbox']{
+    display: inline-block;
+    height: 20px;
+    width: 5%;
+    vertical-align: middle;
 }
