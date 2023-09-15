@@ -5,26 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/login.png">
-    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Cadastrar</title>
 </head>
 <body>
     <form action="#">
-        <h2>Cadastrar</h2>
+        <h1>Cadastrar</h1>
+
+        <div class="erro-geral animate__animated animate__rubberBand">
+            Aqui vai um erro geral para o usuário
+        </div>
+
         <div class="input-group">
             <img class="input-icon" src="images/usario.png" alt="">
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+            <input class="erro-input"type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+            <div class="erro">Por favor, informe um nome válido</div>
         </div>
         <div class="input-group">
             <img class="input-icon" src="images/login.png" alt="">
-            <input type="email" name="email" id="email" placeholder="Digite seu email...">
+            <input class="erro-input" type="email" name="email" id="email" placeholder="Digite seu email...">
+            <div class="erro">Por favor, informe seu email</div>
         </div>
         <div class="input-group">
             <img class="input-icon" src="images/password.png" alt="">
-            <input type="password" name="password" id="password" placeholder="Digite uma senha...">
+            <input class="erro-input" type="password" name="password" id="password" placeholder="Digite uma senha...">
+            <div class="erro">Por favor, informe uma senha</div>
         </div>
         <div class="input-group">
             <img class="input-icon" src="images/password.png" alt="">
-            <input type="password" name="password-confirmation" id="password-confirmation" placeholder="Repita a senha...">
+            <input class="erro-input" type="password" name="password-confirmation" id="password-confirmation" placeholder="Repita a senha...">
+            <div class="erro">Por favor, repita a senha</div>
         </div>
 
         <div class="input-group">
@@ -32,7 +43,7 @@
             <label for="termos"class="text-label">Ao se cadastrar você concorda com a nossa <a class="link" href="#">Politíca de privacidade</a> e os <a class="link" href="#">Termos de uso</a></label>
         </div>
         <button type="submit" class="btn">Fazer Cadastro</button>
-        <a href="index.html">Já tenho uma conta</a>
+        <a class="link-cadastro"  href="index.html">Já tenho uma conta</a>
     </form>
 </body>
 </html>

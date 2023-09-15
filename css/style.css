@@ -11,6 +11,7 @@
     --color-green2: #0f928c ;
     --color-green3: #006465 ;
     --color-blue: #00c9d2;
+    --color-error: #e72a2a;
 }
 
 body{
@@ -37,7 +38,7 @@ form{
     box-shadow: 0px 0px 20px var(--color-dark);
 }
 
-h2{
+h1{
     font-size: 2rem;
     width: 100%;
     color: var(--color-white);
@@ -88,7 +89,7 @@ input:focus{
 
 .btn:hover{
     background: var(--color-blue);
-    border: none;
+    border: 1px solid var(--color-white)
 }
 
 a{
@@ -99,8 +100,16 @@ a{
 }
 
 .link{
-    color: var(--color-blue);
+    color: var(--color-green);
     text-decoration: underline;
+}
+
+.link-login:hover{
+    color: var(--color-green);
+}
+
+.link-cadastro:hover{
+    color: var(--color-green);
 }
 
 .input-group{
@@ -119,4 +128,24 @@ input[type='checkbox']{
     height: 20px;
     width: 5%;
     vertical-align: middle;
+}
+
+.erro-geral{
+    background: var(--color-error);
+    color: var(--color-white);
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.erro-input{
+    border: 2px solid var(--color-error);
+}
+
+.erro{
+    color: var(--color-error);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
